@@ -5,13 +5,14 @@
 #define bt_layer  0
 #define layer_1   1
 #define layer_2   2
+#define layer_3   3
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
         bt_layer {
-            bindings <
+            bindings = <
                 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none
                 &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none        &none
 
@@ -47,7 +48,7 @@
             >;
         };
 
-        layer_2 {
+        layer_3 {
             bindings = <
                 &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
                 &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans       &trans
